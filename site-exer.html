@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITULO -->
+    <title>Lucas O Dev</title>
+    <link rel="stylesheet" href="estilo.css"> <!-- Linkar pagina CSS-->
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <h1>Portifolio o Inicio</h1>
+        <p>Nessa Atividade, teremos 3 seções, que são pontos importantes na minha vida!</p>
+        <!-- Navegação -->
+        <nav>
+            <ul>
+                <li><a href="">Musicas</a></li>
+                <li><a href="">Programação</a></li>
+                <li><a href="">Games</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção Musicas -->
+        <section>
+            <h2>Musicas E Albuns</h2>
+            <p>No meu tempo livre faço musicas e no momento estou produzindo um album, com foco na minha tragetória, na vida e na musica, o nome do album vai ser: LINHA DO TEMPO. Nesse album vocês terão a oportunidade de conhecer um pouco mais sobre mim!</p>
+            <a href="">Ver projeto</a>
+        </section>
+
+        <!-- Seção Programação -->
+        <section>
+            <h2>Programação Na Minha Vida</h2>
+            <p>Estou certo de que posso dominar esse mundo e conquistar meus sonhos através dos códigos, acredito que isso vai me ajudar a ser mais organizado, bem sucedido, entre outras características para viver bem com a minha família!</p>
+            <a href="">Ver projeto</a>
+        </section>
+
+        <!-- Seção Games -->
+        <section>
+            <h2>Games e Universo Geek</h2>
+            <p>Mais uma paixão que me acompanha a muito tempo, curto todos os tipos de games com um ponto fraco em FPS, BATTLEFIELD sempre vai ter um lugar guardado no meu coração junto com Dragon Ball. O universo geek faz com que eu me sinta pertencente de algo, assim como programar.</p>
+            <a href="">Ver projeto</a>
+        </section>
+
+        <!-- Imagem Do Goku -->
+        <img src="gk.png" alt="Imagem Do Goku Sorrindo"/>
+
+        <!-- Formulário -->
+        <form action="formulario.html" method="post" autocomplete="on">
+            <fieldset>
+                <legend>De qual assunto dessas 3 seções mais te agradam?</legend>
+
+                <label for="name">Nome: </label>
+                <input type="text" id="name" placeholder="Digite seu nome" required>
+                <br><br>
+
+                <label for="email">Email: </label>
+                <input type="email" id="email" placeholder="Digite seu email" required>
+                <br><br>
+
+                <label for="idade">Idade: </label>
+                <input type="number" id="idade" placeholder="Digite Sua Idade">
+                <br><br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" placeholder="Deixe sua mensagem" required></textarea>
+            </fieldset>
+            <br>
+            <button type="submit" onclick="enviadoParaAnalise()">Enviar Para Análise</button>
+        </form>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>&copy; 2025 Lucas Vieira - Todos Os Direitos Reservados</p>
+        <p>Pode se conectar também via:</p>
+        <a href="">LinkedIn</a>
+        <a href="">Instagram</a>
+        <a href="">WhatsApp</a>
+    </footer>
+</body>
+</html>

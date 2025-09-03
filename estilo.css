@@ -1,0 +1,122 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* BODY */
+body{
+    font-family: 'Roboto', 'sans-serif'; /* Fonte Letras*/
+    line-height: 1.8; /* Espaçamento entre linhas */
+    color: black;
+    background:linear-gradient(45deg, rgb(53, 136, 166), rgb(27, 87, 182) );
+}
+/* HEADER */
+header{
+    padding: 20px;
+    background: linear-gradient(45deg, rgb(20, 86, 130), rgb(32, 32, 103) );
+    color: aliceblue;
+    text-align: center;
+    border-radius: 7px;
+}
+
+header h1{
+    font-size: 40px;
+    margin-top: 18px;
+    color: rgb(255, 255, 255);
+}
+header p{
+    font-size: 18px;
+    margin-top: 9px;
+}
+header nav ul li {
+    display: inline;
+    margin-right: 32px;
+}
+header nav ul li a{
+    color:aliceblue;
+    text-decoration: none; /* altera o estilo do texto ( nesse caso tira o sublinhado ) */
+    font-weight: bold;
+}
+
+header nav ul li a:hover{
+    color: black;
+}
+
+/* Seção */
+section{
+    padding: 8px;
+    margin: 10px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 27px;
+}
+section h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color:rgb(1, 1, 1);
+}
+
+section a{
+     text-decoration: none;
+    font-weight: bold;
+    color: rgb(56, 7, 105);
+
+}
+section p{
+    text-align: center;
+    color: aliceblue;
+
+}
+section a:hover{
+    color: blueviolet;
+} 
+/*
+article{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid indianred;
+    border-radius: 17px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+*/
+img{
+    width: 100%;
+    max-width: 1200px; /* não ultrapassa esse limite */
+    height: 315px;
+    object-fit: cover;
+    border-radius: 34px;
+    margin: 20px auto;
+    display: block;
+}
+form{
+    width: 650px;
+    margin: 30px auto;  /* centraliza */
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+form legend{
+    font-size: 22px;
+    text-align: center;
+    color: aliceblue;
+
+}
+form label{
+    font-size: 17px;
+    display: inline;
+    margin: 7px;
+    
+}
+/* footer */ 
+footer{
+    color: rgb(0, 36, 97);
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    text-decoration: underline;
+}
